@@ -1,0 +1,28 @@
+.tarjeta{
+    background-color: #344d67;
+    color: white;
+    width: 100%;    
+    min-width: 317px;
+    max-width: fit-content; 
+}
+h2{
+    color: #b1f0dc;
+}
+.boton {
+    background-color:#b1f0dc ;
+    color:#344d67;
+}
+.cerrar {
+    background-color:#b1f0dc ;
+    color:#344d67;
+    border-radius: 5px; 
+}
+.contenedor-lista{
+    height: 300px;
+    font-size: 30px;
+}
+.itemLista{
+    color: white;
+    min-width: 317px;
+    max-width: fit-content; 
+}

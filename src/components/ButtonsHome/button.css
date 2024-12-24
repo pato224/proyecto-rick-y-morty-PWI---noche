@@ -1,0 +1,11 @@
+.botonHome{
+    padding: 10px;
+    background-color: #344d67;
+    margin-left: 20px;
+    color: #6ECCAF;
+    transition: background-color 0.1s ease, coloro.3s ease;
+}
+.botonHome:hover{
+    background-color: #6ECCAF ;
+    color: #344d67;
+}

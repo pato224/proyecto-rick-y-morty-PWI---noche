@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.subt-1{
+    display: grid;
+	grid-gap: 3rem;
+	margin: 2rem 0;
+    color: #344d67;
+    text-align: left;
+}
+.form{
+    display: none;
+	border-radius: 10px;
+	box-shadow: 0 0 15px 0 hsl(0, 0%, 0%, .15);
+    justify-content: space-between;
+    
+}
+.mobile-filters {
+    background-color: #344d67;
+    justify-content: space-between;
+}
+
+
+
+@media(min-width:720px){
+    .mobile-filters{
+        display: none!important;
+        background-color: #344d67;
+    
+    }
+    .subt-1{
+        display: block;
+    }
+    .form{
+        display: flex;
+    }
+
+}
